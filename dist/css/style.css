@@ -1,0 +1,71 @@
+.btn:nth-child(1) {
+  background-color: #1a1a1a;
+  outline: auto; }
+
+.btn:nth-child(2) {
+  background-color: #333333;
+  outline: auto; }
+
+.btn:nth-child(3) {
+  background-color: #4d4d4d;
+  outline: auto; }
+
+.btn:nth-child(4) {
+  background-color: #666666;
+  outline: auto; }
+
+.btn:nth-child(5) {
+  background-color: gray;
+  outline: auto; }
+
+.btn:nth-child(6) {
+  background-color: #999999;
+  outline: auto; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  padding: 3rem;
+  font-family: "Times New Roman", Times, serif;
+  color: #fff; }
+
+.card {
+  padding: 5rem;
+  background-color: #c5c5c5;
+  border: none;
+  display: inline-block;
+  margin-bottom: 2rem;
+  margin-left: 1rem; }
+  .card_header {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black; }
+  .card h2 {
+    text-transform: uppercase;
+    color: #bf4040;
+    background-color: #fff;
+    transition: all 0.5s; }
+    .card h2:hover {
+      background-color: white;
+      -webkit-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+      padding: 0.5rem;
+      border-radius: 5px; }
+
+.btn {
+  width: 100px;
+  display: inline-block; }
+
+.badge {
+  background-color: blue;
+  text-decoration: none;
+  padding: 0.6rem;
+  width: 100px;
+  transition: all 0.5s; }
+  .badge:hover {
+    color: #fff;
+    background-color: #c5c5c5; }

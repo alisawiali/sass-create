@@ -1,0 +1,46 @@
+.card {
+    padding: 5rem;
+    background-color: $color_main;
+    border: none;
+    display: inline-block;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+
+    &_header {
+        padding-bottom: 1rem;
+        border-bottom: 1px solid rgb(0, 0, 0);
+    }
+
+    h2 {
+        text-transform: uppercase;
+        color: set-color($color-light);
+        background-color: $color-light;
+        transition: all 0.5s;
+
+        &:hover {
+            background-color: lighten($color-light, 10%);
+            @include transform(scale(1.1))
+        }
+    }
+
+}
+
+.btn {
+    width: 100px;
+    display: inline-block;
+
+
+}
+
+.badge {
+    background-color: $color-primary;
+    text-decoration: none;
+    padding: 0.6rem;
+    width: 100px;
+    transition: all 0.5s;
+
+    &:hover {
+        color: $color-light;
+        background-color: $color_main;
+    }
+}

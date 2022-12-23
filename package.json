@@ -1,0 +1,23 @@
+{
+  "name": "sass-create",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass sass/main.scss dist/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisawiali/sass-create.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alisawiali/sass-create/issues"
+  },
+  "homepage": "https://github.com/alisawiali/sass-create#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

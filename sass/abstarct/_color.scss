@@ -1,0 +1,12 @@
+$color-primary:rgb(0, 0, 255);
+$color-black:#000000;
+$color-light:#fff;
+$color_main:rgb(197, 197, 197);
+
+
+@for $i from 1 through 6{
+    .btn:nth-child(#{$i}){
+        background-color: lighten($color-black,$i * 10%);
+        outline: auto;
+    }
+}

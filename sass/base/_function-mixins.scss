@@ -1,0 +1,16 @@
+@mixin transform($omer){
+    -webkit-transform:$omer;
+    -o-transform:$omer;
+    -ms-transform:$omer;
+    transform:$omer;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+@function set-color($c){
+    @if ( lightness($c) > 50){
+        @return hsl(0, 50%, 50%);
+    }@else {
+        @return rgb(149, 0, 255);
+    }
+}
